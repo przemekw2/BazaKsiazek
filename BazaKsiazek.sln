@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BazaKsiazek", "BazaKsiazek\
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BazaKsiazek.Tests", "BazaKsiazek.Tests\BazaKsiazek.Tests.csproj", "{994BC398-D7E0-4DB3-BF16-A4F313BBAEF6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Repozytorium", "Repozytorium\Repozytorium.csproj", "{77ADCFF0-3718-48FC-9656-65E48AA479E4}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{994BC398-D7E0-4DB3-BF16-A4F313BBAEF6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{994BC398-D7E0-4DB3-BF16-A4F313BBAEF6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{994BC398-D7E0-4DB3-BF16-A4F313BBAEF6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{77ADCFF0-3718-48FC-9656-65E48AA479E4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{77ADCFF0-3718-48FC-9656-65E48AA479E4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{77ADCFF0-3718-48FC-9656-65E48AA479E4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{77ADCFF0-3718-48FC-9656-65E48AA479E4}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
