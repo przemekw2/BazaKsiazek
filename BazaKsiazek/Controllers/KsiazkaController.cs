@@ -8,12 +8,19 @@ using System.Web;
 using System.Web.Mvc;
 using Repozytorium.Models;
 using Repozytorium.Repo;
+using Repozytorium.IRepo;
 
 namespace BazaKsiazek.Controllers
 {
     public class KsiazkaController : Controller
     {
-        KsiazkaRepo repo = new KsiazkaRepo();
+        //KsiazkaRepo repo = new KsiazkaRepo();
+        private readonly IKsiazkaRepo _repo;
+
+        public KsiazkaController(IKsiazkaRepo repo)
+        {
+            _repo = repo;
+        }
 
         // GET: Ksiazka
         public ActionResult Index()
@@ -22,7 +29,7 @@ namespace BazaKsiazek.Controllers
             //return View(ksiazki.ToList());
 
 
-            var ksiazki = repo.PobierzKsiazki();
+            var ksiazki = _repo.PobierzKsiazki();
             return View(ksiazki.ToList());
         }
 

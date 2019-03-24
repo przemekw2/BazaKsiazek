@@ -106,6 +106,7 @@
     </Content>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="IRepo\IKsiazkaRepo.cs" />
     <Compile Include="Migrations\201903171333220_initial.cs" />
     <Compile Include="Migrations\201903171333220_initial.Designer.cs">
       <DependentUpon>201903171333220_initial.cs</DependentUpon>

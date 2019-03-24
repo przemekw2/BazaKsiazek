@@ -4,10 +4,11 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Web;
 using System.Diagnostics;
+using Repozytorium.IRepo;
 
 namespace Repozytorium.Repo
 {
-    public class KsiazkaRepo
+    public class KsiazkaRepo : IKsiazkaRepo
     {
 
         private BazaKsiazekContext db = new BazaKsiazekContext();
